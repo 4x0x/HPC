@@ -1,0 +1,57 @@
+-------------------------------------------------
+/home/x4/CLionProjects/HPC-codes/MergeSort
+Sorted array: 4 5 6 7 8 11 12 13 
+
+/home/x4/CLionProjects/HPC-codes/MergeSortParallel
+Sorted array: 4 5 6 7 8 11 12 13 
+Time taken = 0.008999 seconds
+
+-------------------------------------------------
+/home/x4/CLionProjects/HPC-codes/BinarySearch
+Element found at index 4
+
+
+/home/x4/CLionProjects/HPC-codes/BinarySearchParallel
+Element found at index 6
+Time taken = 0.017343 seconds
+
+-------------------------------------------------
+
+
+/home/x4/CLionProjects/HPC-codes/Caeser_SIMD
+Enter text (only uppercase letters, max 100 characters):
+ABDULLAHALASMARI
+Enter shift amount: 5
+Choose operation:
+1. Encrypt
+2. Decrypt
+Enter choice (1 or 2): 1
+Encrypted text: FGIZQQFMFQFXRFWN
+Time taken = 0.000007 seconds
+
+-------------------------------------------------
+/home/x4/CLionProjects/HPC-codes/Case_Study
+Sequential Execution Time: 5.246496 seconds
+Parallel Execution Time: 1.051871 seconds
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/Matrix_GPU_Offloading
+C[0][0] = 5559680, C[N-1][N-1] = -11086720
+Time taken = 0.025526 seconds
+
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/RecursiveSum
+Sum of array = 21
+Time taken = 0.010631 seconds
+
+-------------------------------------------------
+/home/x4/CLionProjects/HPC-codes/SumSIMD
+Total sum = 1000000
+Time taken = 0.013866 seconds
+
+-------------------------------------------------
+-------------------------------------------------
+

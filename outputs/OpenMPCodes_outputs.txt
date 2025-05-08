@@ -1,0 +1,481 @@
+/home/x4/CLionProjects/HPC-codes/1_Hello_World_2
+Hello from thread 8 of 12
+Hello from thread 3 of 12
+Hello from thread 10 of 12
+Hello from thread 2 of 12
+Hello from thread 5 of 12
+Hello from thread 6 of 12
+Hello from thread 1 of 12
+Hello from thread 11 of 12
+Hello from thread 4 of 12
+Hello from thread 7 of 12
+Hello from thread 0 of 12
+Hello from thread 9 of 12
+
+------------------------------------------------
+
+
+/home/x4/CLionProjects/HPC-codes/2_For_Loop_1
+Thread 10 executes iteration 18
+Thread 6 executes iteration 12
+Thread 6 executes iteration 13
+Thread 5 executes iteration 10
+Thread 5 executes iteration 11
+Thread 4 executes iteration 8
+Thread 4 executes iteration 9
+Thread 8 executes iteration 16
+Thread 9 executes iteration 17
+Thread 2 executes iteration 4
+Thread 2 executes iteration 5
+Thread 11 executes iteration 19
+Thread 0 executes iteration 0
+Thread 0 executes iteration 1
+Thread 3 executes iteration 6
+Thread 3 executes iteration 7
+Thread 7 executes iteration 14
+Thread 7 executes iteration 15
+Thread 1 executes iteration 2
+Thread 1 executes iteration 3
+
+
+
+
+-------------------------------------------------
+
+
+/home/x4/CLionProjects/HPC-codes/2_For_Loop_2
+Thread 10 doubled a[13] = 26
+Thread 7 doubled a[10] = 20
+Thread 11 doubled a[14] = 28
+Thread 5 doubled a[8] = 16
+Thread 6 doubled a[9] = 18
+Thread 9 doubled a[12] = 24
+Thread 3 doubled a[6] = 12
+Thread 8 doubled a[11] = 22
+Thread 0 doubled a[0] = 0
+Thread 0 doubled a[1] = 2
+Thread 1 doubled a[2] = 4
+Thread 1 doubled a[3] = 6
+Thread 4 doubled a[7] = 14
+Thread 2 doubled a[4] = 8
+Thread 2 doubled a[5] = 10
+
+
+-------------------------------------------------
+
+
+/home/x4/CLionProjects/HPC-codes/3_Reduction_1
+sum = 4950
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/3_Reduction_2
+sum = 5.187378
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/4_Synchronization_atomic_1
+Final sum = 10
+
+
+
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/4_Synchronization_barrier_1
+Thread 11 before barrier
+Thread 10 before barrier
+Thread 5 before barrier
+Thread 1 before barrier
+Thread 4 before barrier
+Thread 3 before barrier
+Thread 8 before barrier
+Thread 9 before barrier
+Thread 6 before barrier
+Thread 0 before barrier
+Thread 2 before barrier
+Thread 7 before barrier
+Thread 10 after barrier
+Thread 2 after barrier
+Thread 11 after barrier
+Thread 5 after barrier
+Thread 0 after barrier
+Thread 7 after barrier
+Thread 4 after barrier
+Thread 8 after barrier
+Thread 1 after barrier
+Thread 9 after barrier
+Thread 3 after barrier
+Thread 6 after barrier
+
+-------------------------------------------------
+/home/x4/CLionProjects/HPC-codes/4_Synchronization_critical1
+i now  = 0 , done by thread 0 
+i now  = 42 , done by thread 10 
+i now  = 34 , done by thread 8 
+i now  = 35 , done by thread 8 
+i now  = 36 , done by thread 8 
+i now  = 37 , done by thread 8 
+i now  = 1 , done by thread 0 
+i now  = 2 , done by thread 0 
+i now  = 3 , done by thread 0 
+i now  = 4 , done by thread 0 
+i now  = 43 , done by thread 10 
+i now  = 44 , done by thread 10 
+i now  = 45 , done by thread 10 
+i now  = 14 , done by thread 3 
+i now  = 15 , done by thread 3 
+i now  = 16 , done by thread 3 
+i now  = 17 , done by thread 3 
+i now  = 46 , done by thread 11 
+i now  = 47 , done by thread 11 
+i now  = 48 , done by thread 11 
+i now  = 49 , done by thread 11 
+i now  = 22 , done by thread 5 
+i now  = 23 , done by thread 5 
+i now  = 24 , done by thread 5 
+i now  = 25 , done by thread 5 
+i now  = 30 , done by thread 7 
+i now  = 31 , done by thread 7 
+i now  = 32 , done by thread 7 
+i now  = 33 , done by thread 7 
+i now  = 10 , done by thread 2 
+i now  = 11 , done by thread 2 
+i now  = 12 , done by thread 2 
+i now  = 13 , done by thread 2 
+i now  = 38 , done by thread 9 
+i now  = 39 , done by thread 9 
+i now  = 40 , done by thread 9 
+i now  = 41 , done by thread 9 
+i now  = 26 , done by thread 6 
+i now  = 27 , done by thread 6 
+i now  = 28 , done by thread 6 
+i now  = 29 , done by thread 6 
+i now  = 18 , done by thread 4 
+i now  = 19 , done by thread 4 
+i now  = 20 , done by thread 4 
+i now  = 21 , done by thread 4 
+i now  = 5 , done by thread 1 
+i now  = 6 , done by thread 1 
+i now  = 7 , done by thread 1 
+i now  = 8 , done by thread 1 
+i now  = 9 , done by thread 1 
+total sum = 1225
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/4_Synchronization_critical2
+Thread 10: counter = 1
+Thread 1: counter = 2
+Thread 8: counter = 3
+Thread 5: counter = 4
+Thread 3: counter = 5
+Thread 2: counter = 6
+Thread 11: counter = 7
+Thread 7: counter = 8
+Thread 4: counter = 9
+Thread 9: counter = 10
+Thread 6: counter = 11
+Thread 0: counter = 12
+Final counter = 12
+
+-------------------------------------------------
+/home/x4/CLionProjects/HPC-codes/4_Synchronization_flush_1
+Flag updated, thread 4 continues
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/4_Synchronization_lock_1
+Thread 1 handles i = 1
+Thread 2 handles i = 2
+Thread 3 handles i = 3
+Thread 4 handles i = 4
+Thread 0 handles i = 0
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/4_Synchronization_ordered_1
+Ordered print: i = 0 by thread 0
+Ordered print: i = 1 by thread 1
+Ordered print: i = 2 by thread 2
+Ordered print: i = 3 by thread 3
+Ordered print: i = 4 by thread 4
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/5_Task_Parallelism_1
+Task 1 executed by thread 8
+Task 2 executed by thread 1
+Task 3 executed by thread 9
+
+-------------------------------------------------
+/home/x4/CLionProjects/HPC-codes/5_Task_Parallelism_2
+Task 1 is working by thread 3
+Task 13 is working by thread 3
+Task 14 is working by thread 3
+Task 15 is working by thread 3
+Task 2 is working by thread 11
+Task 3 is working by thread 8
+Task 4 is working by thread 6
+Task 5 is working by thread 2
+Task 6 is working by thread 5
+Task 7 is working by thread 0
+Task 8 is working by thread 1
+Task 9 is working by thread 7
+Task 10 is working by thread 10
+Task 11 is working by thread 4
+Task 12 is working by thread 9
+
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/5_Task_Parallelism_3
+Choose an option (1 = Load, 2 = Process, 3 = Save): 1
+Loading data (thread 11)
+
+
+-------------------------------------------------
+/home/x4/CLionProjects/HPC-codes/6_False_Sharing_avoid
+counter[0][0] = 100000000 
+counter[1][0] = 100000000 
+counter[2][0] = 100000000 
+counter[3][0] = 100000000 
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/7_Private_Variable_1
+Thread 1: x = 1
+Thread 8: x = 8
+Thread 2: x = 2
+Thread 5: x = 5
+Thread 3: x = 3
+Thread 6: x = 6
+Thread 7: x = 7
+Thread 11: x = 11
+Thread 9: x = 9
+Thread 0: x = 0
+Thread 10: x = 10
+Thread 4: x = 4
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/8_Nested_Parallelism_1
+Outer thread 0
+Outer thread 1
+  Inner thread 0 (inside outer thread 0)
+  Inner thread 1 (inside outer thread 0)
+  Inner thread 0 (inside outer thread 1)
+  Inner thread 1 (inside outer thread 1)
+
+-------------------------------------------------
+/home/x4/CLionProjects/HPC-codes/8_Nested_Parallelism_2
+Outer loop iteration 0 by thread 0
+Outer loop iteration 1 by thread 1
+  Inner work for iteration 1 by thread 0
+  Inner work for iteration 1 by thread 1
+  Inner work for iteration 0 by thread 0
+  Inner work for iteration 0 by thread 1
+
+-------------------------------------------------
+/home/x4/CLionProjects/HPC-codes/8_Nested_Parallelism_Collapse_1
+Thread 6: i = 1, j = 2
+Thread 4: i = 1, j = 0
+Thread 7: i = 1, j = 3
+Thread 8: i = 2, j = 0
+Thread 1: i = 0, j = 1
+Thread 2: i = 0, j = 2
+Thread 9: i = 2, j = 1
+Thread 11: i = 2, j = 3
+Thread 3: i = 0, j = 3
+Thread 5: i = 1, j = 1
+Thread 10: i = 2, j = 2
+Thread 0: i = 0, j = 0
+
+-------------------------------------------------
+/home/x4/CLionProjects/HPC-codes/9_Task_Dependencies_1
+Task A
+Task B
+Task C: a+b = 3
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/9_Task_Dependencies_2
+Task 1: setting x
+Task 2: using x = 42
+
+-------------------------------------------------
+/home/x4/CLionProjects/HPC-codes/10_Work_Sharing(Sections)_1
+Hello from section 2 by thread 10
+Hello from section 1 by thread 7
+
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/10_Work_Sharing(Sections)_2
+Task B by thread 4
+Task A by thread 1
+
+
+
+-------------------------------------------------
+/home/x4/CLionProjects/HPC-codes/12_While_Loop_1
+Thread 0 counter = 0
+Thread 0 counter = 1
+Thread 0 counter = 2
+Thread 1 counter = 0
+Thread 1 counter = 1
+Thread 1 counter = 2
+Thread 2 counter = 0
+Thread 2 counter = 1
+Thread 2 counter = 2
+Thread 3 counter = 0
+Thread 3 counter = 1
+Thread 3 counter = 2
+-------------------------------------------------
+/home/x4/CLionProjects/HPC-codes/13_Scheduling_auto_1
+Thread 5 adds 10
+Thread 9 adds 14
+Thread 8 adds 13
+Thread 2 adds 5
+Thread 2 adds 6
+Thread 11 adds 16
+Thread 6 adds 11
+Thread 1 adds 3
+Thread 1 adds 4
+Thread 7 adds 12
+Thread 3 adds 7
+Thread 3 adds 8
+Thread 4 adds 9
+Thread 0 adds 1
+Thread 0 adds 2
+Thread 10 adds 15
+Final sum (auto) = 136
+
+-------------------------------------------------
+/home/x4/CLionProjects/HPC-codes/13_Scheduling_dynamic_1
+Thread 10 adds 5
+Thread 10 adds 12
+Thread 10 adds 13
+Thread 10 adds 14
+Thread 10 adds 15
+Thread 10 adds 16
+Thread 6 adds 1
+Thread 3 adds 6
+Thread 5 adds 8
+Thread 7 adds 3
+Thread 11 adds 7
+Thread 4 adds 2
+Thread 2 adds 9
+Thread 1 adds 10
+Thread 0 adds 11
+Thread 9 adds 4
+Final sum (dynamic) = 136
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/13_Scheduling_guided_1
+Thread 7 adds 6
+Thread 7 adds 15
+Thread 7 adds 16
+Thread 3 adds 1
+Thread 3 adds 2
+Thread 9 adds 5
+Thread 11 adds 7
+Thread 0 adds 8
+Thread 10 adds 9
+Thread 4 adds 10
+Thread 2 adds 11
+Thread 8 adds 12
+Thread 6 adds 13
+Thread 1 adds 14
+Thread 5 adds 3
+Thread 5 adds 4
+Final sum (guided) = 136
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/13_Scheduling_runetime_1
+Thread 1 adds 1
+Thread 1 adds 13
+Thread 1 adds 14
+Thread 1 adds 15
+Thread 1 adds 16
+Thread 3 adds 10
+Thread 2 adds 6
+Thread 4 adds 4
+Thread 5 adds 7
+Thread 10 adds 3
+Thread 7 adds 2
+Thread 9 adds 5
+Thread 11 adds 9
+Thread 6 adds 8
+Thread 0 adds 11
+Thread 8 adds 12
+Final sum (runtime) = 136
+
+-------------------------------------------------
+
+/home/x4/CLionProjects/HPC-codes/13_Scheduling_static_1
+Thread 2 adds 5
+Thread 5 adds 10
+Thread 10 adds 15
+Thread 11 adds 16
+Thread 9 adds 14
+Thread 1 adds 3
+Thread 1 adds 4
+Thread 7 adds 12
+Thread 4 adds 9
+Thread 6 adds 11
+Thread 8 adds 13
+Thread 2 adds 6
+Thread 0 adds 1
+Thread 0 adds 2
+Thread 3 adds 7
+Thread 3 adds 8
+Final sum (static) = 136
+
+
+
+-------------------------------------------------
+
+
+-------------------------------------------------
+
+
+-------------------------------------------------
+
+
+-------------------------------------------------
+
+
+-------------------------------------------------
+
+
+-------------------------------------------------
+
+
+-------------------------------------------------
+
+
+-------------------------------------------------
+
+
+-------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
